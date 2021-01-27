@@ -1,5 +1,5 @@
 # Using machine learning to predict Kickstarter success
-### I. Business Problems
+## I. Business Problems
 Kickstarter, founded in 2009, is one particularly well-known and popular crowdfunding platform. It has an all-or-nothing funding model, whereby a project is only funded if it meets its goal amount; otherwise no money is given by backers to a project.
 ##### Insights – Overall from 2009 to 2017
 <img width="1047" alt="Untitled7" src="https://user-images.githubusercontent.com/70985552/106020165-75559700-6091-11eb-949e-09c046034953.png">
@@ -12,7 +12,7 @@ Kickstarter, founded in 2009, is one particularly well-known and popular crowdfu
 2. COVID-19 impact:
 -  Negative trend active projects trend: April 2020: 25% fewer active projects compared to previous year; August 2020: 7% fewer active projects compared to previous year 
 -  Pandemic delays project launches and product shipping: In May 2020, the company was forced to lay off almost 40% of its workforce
-### II. Approach: How can we increase the number of successful projects
+## II. Approach: How can we increase the number of successful projects
 A huge variety of factors contribute to the success or failure of a project — in general, and also on Kickstarter. Some of these are able to be quantified or categorized, which allows for the construction of a model to attempt to predict whether a project will succeed or not.
 
 The model will be used to predict the likelihood a kickstarter project will succeed or fail before its actual deadline. It will also search for any features that influence the success or failure of Kickstarter projects. That is why we are going to focus only on data whose state is 'successful' or 'failed'.
@@ -20,9 +20,9 @@ The model will be used to predict the likelihood a kickstarter project will succ
 The notebook is divided into 3 parts. In Part 1, we are going to clean data, visualize some patters, and perform data analysis. In part 2, we are going to prepare data for before modelling. In Part 3, we will create a simple model to predict, if a project is going to be successful or not based on chosen features.
 
 In conclusion, we provide our findings and appilcation.
-### III. Methodology
-1. Dataset: 	Kickstart project from 2009 to 2017
-2. Data preparation  
+## III. Methodology
+#### 1. Dataset: 	Kickstart project from 2009 to 2017
+#### 2. Data preparation  
 
 Some features were initially retained for exploratory data analysis (EDA) purposes, but were then dropped in order to use machine learning models. These included features that are related to outcomes (e.g. the amount pledged) rather than related to the properties of the project itself (e.g. category, goal, length of campaign).Country can be explained by Currency i.e. Euro is used by European countries, Pounds for Great Britain, Dollar in USA, etc.
 
@@ -37,9 +37,9 @@ sns.distplot(kick2.usdGoalRealLog, ax=ax2);
 ```
 <img width="734" alt="Untitled8" src="https://user-images.githubusercontent.com/70985552/106023154-89e75e80-6094-11eb-8c4d-aa92328ef4a1.png">
 
-3. Data Exploration: Which effects on projects that were successful?
-4. Prediction: Machine learning models
-#### (1) Model Selections
+#### 3. Data Exploration: Which effects on projects that were successful?
+#### 4. Prediction: Machine Learning Model
+##### (1) Model Selections
 
 **Machine learning models considered**
 
@@ -66,14 +66,14 @@ The F1 score calculates the harmonic mean between precision and recall and is a 
 **The winning model**
 `Logistic Regression`
 
-#### (2) Algorithm Tuning Model
+##### (2) Algorithm Tuning Model
 * Parameter optimization using GridSearchCV 
 * New predictions with 0.4 threshold
 
-#### (3)Evaluate the Selected Model
+##### (3)Evaluate the Selected Model
 <img width="864" alt="Untitled3" src="https://user-images.githubusercontent.com/70985552/106018249-50602480-608f-11eb-9704-4e913b0a8cba.png">
 
-### IV. Recommendation
+## IV. Recommendation
 1. Adapt business model: Charge 1% ‘incentive fee’
 2. Summer highlights campaign
 - June: Technology 
@@ -85,7 +85,7 @@ The F1 score calculates the harmonic mean between precision and recall and is a 
 - [x] Projects in the categories of Dance, Theater, Music, F&V are more likely to be successful
 - [ ] Projects in Game category are more likely to fail
 
-### V. Conclusions
+## V. Conclusions
 The final and best model is Logistic Regression, it is best at predicting the odds of a project either failing or succeeding.
 
 Since we are using 'backers' as a variable, this model would ideally be run continously throughout a project's duration. When used before a project launch, with backers = 0, the USD Goal variable will pull the odds of a project to 'failing' until it gains enough backers. This can still be useful as we can plug in possible values for backers to find the ideal number to swing the project's odds more to succeeding.
@@ -99,7 +99,8 @@ As a project launches and attracts backers, a threshold is reached due to the nu
 
 Further, we can run the model on a periodic schedule for live projects and provide odds for success. At these checkpoint dates, we can identify projects that are likely to fail early and allocate resources to promote the project, either through adjustment of the marketing strategy or a re-evaluation of project goals.
 
-#### Contribution
+## End
+Contribution
 | | Note	 | 
 | ---- |----- | 
 | Date | 12/10/2020	|
