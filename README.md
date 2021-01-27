@@ -22,3 +22,5 @@ In conclusion, we provide our findings and appilcation.
 * Data preparation and exploration insights: Which effects on projects that were successful? 
 * Prediction: Machine learning models
 <img width="1056" alt="Untitled" src="https://user-images.githubusercontent.com/70985552/106016489-84d2e100-608d-11eb-9b61-2b1d6e5a9d43.png">
+* Algorithm Tuning Model by Parameter optimization using GridSearchCV and New predictions with 0.4 threshold
+* Evaluate the selected Model
