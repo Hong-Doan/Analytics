@@ -69,7 +69,7 @@ The graphs below show how various features differ between failed and successful 
 - The differences in the median amount pledged per project are more surprising. The median amount pledged per successful project is considerably higher than the median amount requested, suggesting that projects that meet their goal tend to go on to gain even more funding, and become 'over-funded'
 - Longer projects are not necessarily better. Successful projects have slightly shorter durations. Actually, Kickstarter also noticed it and at some point limited their projects durations to up to 60 days. Project duration of 32-35 days is optimal - on the bottom right graph we can see the percent of projects funded as a function of their duration
 
-<img width="464" alt="Untitled13" src="https://user-images.githubusercontent.com/70985552/106049620-59afb800-60b4-11eb-8394-fe6a0be6f31e.png">
+<img width="835" alt="Untitled14" src="https://user-images.githubusercontent.com/70985552/106050341-1ace3200-60b5-11eb-8ea6-91bf6ce5d908.png">
 
 ### 4. Prediction: Machine Learning Model
 #### (1) Model Selections
