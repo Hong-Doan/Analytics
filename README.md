@@ -37,14 +37,14 @@ sns.distplot(kick2.usdGoalRealLog, ax=ax2);
 ```
 <img width="734" alt="Untitled8" src="https://user-images.githubusercontent.com/70985552/106023154-89e75e80-6094-11eb-8c4d-aa92328ef4a1.png">
 
-3. Data exploration insights: Which effects on projects that were successful?
+3. Data Exploration: Which effects on projects that were successful?
 4. Prediction: Machine learning models
 
-* Model Results
+* Model Selections
 <img width="957" alt="Untitled10" src="https://user-images.githubusercontent.com/70985552/106024694-09c1f880-6096-11eb-9527-d65abab18749.png">
 
-* Algorithm Tuning Model by Parameter optimization using GridSearchCV and New predictions with 0.4 threshold
-* Evaluate the selected Model
+* Algorithm Tuning Model: by Parameter optimization using GridSearchCV and New predictions with 0.4 threshold
+* Evaluate the Selected Model
 <img width="864" alt="Untitled3" src="https://user-images.githubusercontent.com/70985552/106018249-50602480-608f-11eb-9704-4e913b0a8cba.png">
 
 ### IV. Recommendation
