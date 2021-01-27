@@ -1,15 +1,15 @@
 # Using machine learning to predict Kickstarter success
 ## I. Business Problems
 Kickstarter, founded in 2009, is one particularly well-known and popular crowdfunding platform. It has an all-or-nothing funding model, whereby a project is only funded if it meets its goal amount; otherwise no money is given by backers to a project.
-##### Insights – Overall from 2009 to 2017
+#### Insights – Overall from 2009 to 2017
 <img width="922" alt="Untitled12" src="https://user-images.githubusercontent.com/70985552/106045456-efe0df80-60ae-11eb-9f06-fa36ededaf64.png">
 
-### 1. Current business situations:
+#### Current business situations:
 -  Creators and their projects are autonomous
 -  If a project fails to meet its goal, no money is exchanged
 -  We take only 5% of total money pledge from successful projects 
 -  To date, only 37.8% of projects have succeeded
-### 2. COVID-19 impact:
+#### COVID-19 impact:
 -  Negative trend active projects trend: April 2020: 25% fewer active projects compared to previous year; August 2020: 7% fewer active projects compared to previous year 
 -  Pandemic delays project launches and product shipping: In May 2020, the company was forced to lay off almost 40% of its workforce
 ## II. Approach: How can we increase the number of successful projects
