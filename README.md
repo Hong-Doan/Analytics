@@ -39,16 +39,16 @@ sns.distplot(kick2.usdGoalRealLog, ax=ax2);
 
 3. Data Exploration: Which effects on projects that were successful?
 4. Prediction: Machine learning models
-##### Model Selections
+#### (1) Model Selections
 
-Machine learning models considered
+**Machine learning models considered**
 
 * Logistic Regression (LR)
 * Support Vector Machine (SVC)
 * K-Nearest Neighbors (KNN)
 * Random Forest  (RF)
 
-Analyze the results:
+**Analyze the results**
 
 | Model Name|	LR | SVM	| KNN	| RF |
 | ---- |----- | ---- | ------ | ------- |
@@ -57,6 +57,14 @@ Analyze the results:
 | Recall	| 0.8851	| 0.8828	| 0.8759	| 0.8782 |
 | F1 | Score	| 0.9027	| 0.9025	| 0.8759	| 0.8915 | 
 | ROC and AUC	| 0.9133	| 0.9131	| 0.9025	| 0.9037 |
+
+**How to evaluate model performances and select the best model?**
+It is important to evaluate both the precision and recall of a model. Thus, it makes sense to combine the precision and recall metrics; the common approach for combining these metrics is known as the f-score (weighted average F1 score): (1) Dataset is slightly imbalanced and (2) Balance trade-off between precision and recall
+
+The F1 score calculates the harmonic mean between precision and recall and is a suitable measure because there is no preference for false positives or false negatives in this case (both are equally bad). The weighted average will be used because the classes are of slightly different sizes, and we want to be able to predict both successes and failures.
+
+**The winning model**
+`Logistic Regression`
 
 * Algorithm Tuning Model: by Parameter optimization using GridSearchCV and New predictions with 0.4 threshold
 * Evaluate the Selected Model
@@ -88,6 +96,11 @@ As a project launches and attracts backers, a threshold is reached due to the nu
 
 Further, we can run the model on a periodic schedule for live projects and provide odds for success. At these checkpoint dates, we can identify projects that are likely to fail early and allocate resources to promote the project, either through adjustment of the marketing strategy or a re-evaluation of project goals.
 
-#### END
+#### Contribution
+| | Note	 | 
+| ---- |----- | 
+| Date | 12/10/2020	|
+| Author	| Hong Doan	| 
+| Teammate | Rina Calderon, Beth Castaneda, Harley Hayden | 
 
 
