@@ -43,6 +43,14 @@ sns.distplot(kick2.usdGoalRealLog, ax=ax2);
 * Model Selections
 <img width="671" alt="Untitled12" src="https://user-images.githubusercontent.com/70985552/106026000-4fcb8c00-6097-11eb-9551-c00fdf923821.png">
 
+| Model Name|	LR | SVM	| KNN	| RF |
+| ---- |----- | ---- | ------ | ------- |
+| Accuracy | 0.9170	| 0.9070 |	0.9160 |	0.9070 |
+| Precision	| 0.9211	| 0.9231	| 0.9050	| 0.9052 |
+| Recall	| 0.8851	| 0.8828	| 0.8759	| 0.8782 |
+| F1 | Score	| 0.9027	| 0.9025	| 0.8759	| 0.8915 | 
+| ROC and AUC	| 0.9133	| 0.9131	| 0.9025	| 0.9037 |
+
 * Algorithm Tuning Model: by Parameter optimization using GridSearchCV and New predictions with 0.4 threshold
 * Evaluate the Selected Model
 <img width="864" alt="Untitled3" src="https://user-images.githubusercontent.com/70985552/106018249-50602480-608f-11eb-9704-4e913b0a8cba.png">
