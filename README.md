@@ -64,7 +64,7 @@ sns.distplot(kick2.usdGoalRealLog, ax=ax2);
 
 ### 3. Data Exploration: Which effects on projects that were successful?
 
-The graphs below show how various features differ between failed and successful projects.
+The graphs below show how various features differ between failed and successful projects
 - Unsurprisingly, successful projects tend to have smaller (and therefore more realistic) goals - the median amount sought by successful projects is about half that of failed projects
 - The differences in the median amount pledged per project are more surprising. The median amount pledged per successful project is considerably higher than the median amount requested, suggesting that projects that meet their goal tend to go on to gain even more funding, and become 'over-funded'
 - Longer projects are not necessarily better. Successful projects have slightly shorter durations. Actually, Kickstarter also noticed it and at some point limited their projects durations to up to 60 days. Project duration of 32-35 days is optimal - on the bottom right graph we can see the percent of projects funded as a function of their duration
@@ -91,6 +91,7 @@ The graphs below show how various features differ between failed and successful 
 | ROC and AUC	| 0.9133	| 0.9131	| 0.9025	| 0.9037 |
 
 **How to evaluate model performances and select the best model?**
+
 It is important to evaluate both the precision and recall of a model. Thus, it makes sense to combine the precision and recall metrics; the common approach for combining these metrics is known as the f-score (weighted average F1 score): (1) Dataset is slightly imbalanced and (2) Balance trade-off between precision and recall
 
 The F1 score calculates the harmonic mean between precision and recall and is a suitable measure because there is no preference for false positives or false negatives in this case (both are equally bad). The weighted average will be used because the classes are of slightly different sizes, and we want to be able to predict both successes and failures.
