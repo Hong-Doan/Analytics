@@ -37,10 +37,10 @@ In conclusion, we provide our findings and appilcation.
 - July: Journalism
 - August: Food
 3. Focus on the factors that are the most important
-- (+) Backer is the most important feature 
-- (-) Larger goals negatively impact successful projects
-- (+) Projects in the categories of Dance, Theater, Music, F&V are more likely to be successful
-- (-) Projects in Game category are more likely to fail
+- [x] Backer is the most important feature 
+- [ ] Larger goals negatively impact successful projects
+- [x] Projects in the categories of Dance, Theater, Music, F&V are more likely to be successful
+- [ ] Projects in Game category are more likely to fail
 
 
 
