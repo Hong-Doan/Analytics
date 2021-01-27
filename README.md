@@ -29,14 +29,13 @@ kick1: The columns which were kept or calculated were:
 
 **DataFrame**
 
-Int64Index: 331462 entries, 1000002330 to 999988282
-Data columns (total 11 columns):
+Int64Index: 331462 entries, Data columns (total 11 columns):
 
 | #  | Column | Non-Null Count | Dtype |    
 | ---- |----- | ---- | ------ |
 | 0 | mainCategory | 331462 non-null | object |      
 | 1 | currency | 331462 non-null  | object |     
-| 2 | launched | 331462 non-null | datetime64[ns]| 
+| 2 | launched | 331462 non-null | datetime64 | 
 | 3 | state |  331462 non-null | object |       
 | 4 | backers |  331462 non-null | int64 |      
 | 5 | country |  331462 non-null | object |       
@@ -46,7 +45,7 @@ Data columns (total 11 columns):
 | 9 | yearlaunched | 331462 non-null | int64 |        
 | 10 | monthlaunched | 331462 non-null | int64 |       
 
-dtypes: datetime64[ns](1), float64(2), int64(4), object(4), memory usage: 30.3+ MB
+dtypes: datetime64 (1), float64(2), int64(4), object(4), memory usage: 30.3+ MB
 
 ### 2. Data preparation  
 
