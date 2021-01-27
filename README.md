@@ -66,8 +66,11 @@ The F1 score calculates the harmonic mean between precision and recall and is a 
 **The winning model**
 `Logistic Regression`
 
-* Algorithm Tuning Model: by Parameter optimization using GridSearchCV and New predictions with 0.4 threshold
-* Evaluate the Selected Model
+#### (2) Algorithm Tuning Model
+* Parameter optimization using GridSearchCV 
+* New predictions with 0.4 threshold
+
+#### (3)Evaluate the Selected Model
 <img width="864" alt="Untitled3" src="https://user-images.githubusercontent.com/70985552/106018249-50602480-608f-11eb-9704-4e913b0a8cba.png">
 
 ### IV. Recommendation
