@@ -31,4 +31,16 @@ In conclusion, we provide our findings and appilcation.
 <img width="864" alt="Untitled3" src="https://user-images.githubusercontent.com/70985552/106018249-50602480-608f-11eb-9704-4e913b0a8cba.png">
 
 ### Recommendation
-<img width="762" alt="recomend" src="https://user-images.githubusercontent.com/70985552/106019521-bdc08500-6090-11eb-9771-e2e21ff9e2ae.png">
+1. Adapt business model: Charge 1% ‘incentive fee’
+2. Summer highlights campaign
+- June: Technology 
+- July: Journalism
+- August: Food
+3. Focus on the factors that are the most important
+- (+) Backer is the most important feature 
+- (-) Larger goals negatively impact successful projects
+- (+) Projects in the categories of Dance, Theater, Music, F&V are more likely to be successful
+- (-) Projects in Game category are more likely to fail
+
+
+
