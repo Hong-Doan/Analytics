@@ -4,12 +4,12 @@ Kickstarter, founded in 2009, is one particularly well-known and popular crowdfu
 ##### Insights – Overall from 2009 to 2017
 <img width="1047" alt="Untitled7" src="https://user-images.githubusercontent.com/70985552/106020165-75559700-6091-11eb-949e-09c046034953.png">
 
-1. Current business situations:
+### 1. Current business situations:
 -  Creators and their projects are autonomous
 -  If a project fails to meet its goal, no money is exchanged
 -  We take only 5% of total money pledge from successful projects 
 -  To date, only 37.8% of projects have succeeded
-2. COVID-19 impact:
+### 2. COVID-19 impact:
 -  Negative trend active projects trend: April 2020: 25% fewer active projects compared to previous year; August 2020: 7% fewer active projects compared to previous year 
 -  Pandemic delays project launches and product shipping: In May 2020, the company was forced to lay off almost 40% of its workforce
 ## II. Approach: How can we increase the number of successful projects
@@ -21,8 +21,8 @@ The notebook is divided into 3 parts. In Part 1, we are going to clean data, vis
 
 In conclusion, we provide our findings and appilcation.
 ## III. Methodology
-#### 1. Dataset: 	Kickstart project from 2009 to 2017
-#### 2. Data preparation  
+### 1. Dataset: 	Kickstart project from 2009 to 2017
+### 2. Data preparation  
 
 Some features were initially retained for exploratory data analysis (EDA) purposes, but were then dropped in order to use machine learning models. These included features that are related to outcomes (e.g. the amount pledged) rather than related to the properties of the project itself (e.g. category, goal, length of campaign).Country can be explained by Currency i.e. Euro is used by European countries, Pounds for Great Britain, Dollar in USA, etc.
 
@@ -37,9 +37,9 @@ sns.distplot(kick2.usdGoalRealLog, ax=ax2);
 ```
 <img width="734" alt="Untitled8" src="https://user-images.githubusercontent.com/70985552/106023154-89e75e80-6094-11eb-8c4d-aa92328ef4a1.png">
 
-#### 3. Data Exploration: Which effects on projects that were successful?
-#### 4. Prediction: Machine Learning Model
-##### (1) Model Selections
+### 3. Data Exploration: Which effects on projects that were successful?
+### 4. Prediction: Machine Learning Model
+#### (1) Model Selections
 
 **Machine learning models considered**
 
@@ -66,11 +66,11 @@ The F1 score calculates the harmonic mean between precision and recall and is a 
 **The winning model**
 `Logistic Regression`
 
-##### (2) Algorithm Tuning Model
+#### (2) Algorithm Tuning Model
 * Parameter optimization using GridSearchCV 
 * New predictions with 0.4 threshold
 
-##### (3)Evaluate the Selected Model
+#### (3) Evaluate the Selected Model
 <img width="864" alt="Untitled3" src="https://user-images.githubusercontent.com/70985552/106018249-50602480-608f-11eb-9704-4e913b0a8cba.png">
 
 ## IV. Recommendation
@@ -99,7 +99,7 @@ As a project launches and attracts backers, a threshold is reached due to the nu
 
 Further, we can run the model on a periodic schedule for live projects and provide odds for success. At these checkpoint dates, we can identify projects that are likely to fail early and allocate resources to promote the project, either through adjustment of the marketing strategy or a re-evaluation of project goals.
 
-## End
+## VI. End
 Contribution
 | | Note	 | 
 | ---- |----- | 
