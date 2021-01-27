@@ -21,9 +21,4 @@ In conclusion, we provide our findings and appilcation.
 * Dataset: 	Kickstart project from 2009 to 2017
 * Data preparation and exploration insights: Which effects on projects that were successful? 
 * Prediction: Machine learning models
-### Model selection
-1. Logistic Regression (LR)
-2. Support Vector Machine (SVC)
-3. K-Nearest Neighbors (KNN)
-4. Random Forest (RF)
 <img width="1056" alt="Untitled" src="https://user-images.githubusercontent.com/70985552/106016489-84d2e100-608d-11eb-9b61-2b1d6e5a9d43.png">
