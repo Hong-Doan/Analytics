@@ -42,5 +42,20 @@ In conclusion, we provide our findings and appilcation.
 - [x] Projects in the categories of Dance, Theater, Music, F&V are more likely to be successful
 - [ ] Projects in Game category are more likely to fail
 
+### V. Conclusions
+The final and best model is Logistic Regression, it is best at predicting the odds of a project either failing or succeeding.
+
+Since we are using 'backers' as a variable, this model would ideally be run continously throughout a project's duration. When used before a project launch, with backers = 0, the USD Goal variable will pull the odds of a project to 'failing' until it gains enough backers. This can still be useful as we can plug in possible values for backers to find the ideal number to swing the project's odds more to succeeding.
+
+Further, we can run the model on a periodic schedule for live projects and provide odds for success. At these checkpoint dates, we can identify projects that are likely to fail early and allocate resources to promote the project.
+
+#### Application
+Instead of outright classification, this problem was best tackled with probabilities due to the nature of the question: What makes a project successful? Intuitively, no project on kickstarter is a guaranteed success, but there are ones that are more likely to succeed before project launch: those with moderate goals and are performance arts-focused.
+
+As a project launches and attracts backers, a threshold is reached due to the number of backers and the probability of success becomes greater than failure. The model also puts more weight on backers, so a one unit change in backers (log), holding every else constant, increases the odds of success by a greater margin than the negative impact of USD goal (log). Projects that are not performance focused, couple with excessively high goals, are starting the race farther from the finish line. Running this model before a project launch can tell us how much disadvantage a project has incurred and project the number of backers it will take to overcome those disadvantages.
+
+Further, we can run the model on a periodic schedule for live projects and provide odds for success. At these checkpoint dates, we can identify projects that are likely to fail early and allocate resources to promote the project, either through adjustment of the marketing strategy or a re-evaluation of project goals.
+
+#### END
 
 
