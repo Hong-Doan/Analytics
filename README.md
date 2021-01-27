@@ -41,7 +41,7 @@ sns.distplot(kick2.usdGoalRealLog, ax=ax2);
 4. Prediction: Machine learning models
 
 * Model Selections
-<img width="957" alt="Untitled11" src="https://user-images.githubusercontent.com/70985552/106025538-d895f800-6096-11eb-97ac-81f3050c8ddd.png">
+<img width="671" alt="Untitled12" src="https://user-images.githubusercontent.com/70985552/106026000-4fcb8c00-6097-11eb-9551-c00fdf923821.png">
 
 * Algorithm Tuning Model: by Parameter optimization using GridSearchCV and New predictions with 0.4 threshold
 * Evaluate the Selected Model
