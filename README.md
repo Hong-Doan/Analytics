@@ -24,3 +24,4 @@ In conclusion, we provide our findings and appilcation.
 <img width="1056" alt="Untitled" src="https://user-images.githubusercontent.com/70985552/106016489-84d2e100-608d-11eb-9b61-2b1d6e5a9d43.png">
 * Algorithm Tuning Model by Parameter optimization using GridSearchCV and New predictions with 0.4 threshold
 * Evaluate the selected Model
+<img width="1040" alt="Untitled1" src="https://user-images.githubusercontent.com/70985552/106017772-d891fa00-608e-11eb-998d-a0cb173a09e2.png">
