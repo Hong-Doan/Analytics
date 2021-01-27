@@ -17,3 +17,7 @@ The model will be used to predict the likelihood a kickstarter project will succ
 The notebook is divided into 3 parts. In Part 1, we are going to clean data, visualize some patters, and perform data analysis. In part 2, we are going to prepare data for before modelling. In Part 3, we will create a simple model to predict, if a project is going to be successful or not based on chosen features.
 
 In conclusion, we provide our findings and appilcation.
+### Methodology
+* Dataset: 	Kickstart project from 2009 to 2017
+* Data preparation and exploration insights: Which effects on projects that were successful? 
+* Prediction: Machine learning models
