@@ -1,4 +1,4 @@
-# Using machine learning to predict Kickstarter success
+# Using Machine Learning to Predict Kickstarter Success
 ## I. Business Problems
 Kickstarter, founded in 2009, is one particularly well-known and popular crowdfunding platform. It has an all-or-nothing funding model, whereby a project is only funded if it meets its goal amount; otherwise no money is given by backers to a project.
 #### Insights – Overall from 2009 to 2017
