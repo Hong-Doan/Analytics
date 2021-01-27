@@ -39,9 +39,16 @@ sns.distplot(kick2.usdGoalRealLog, ax=ax2);
 
 3. Data Exploration: Which effects on projects that were successful?
 4. Prediction: Machine learning models
+##### Model Selections
 
-* Model Selections
-<img width="671" alt="Untitled12" src="https://user-images.githubusercontent.com/70985552/106026000-4fcb8c00-6097-11eb-9551-c00fdf923821.png">
+Machine learning models considered
+
+* Logistic Regression (LR)
+* Support Vector Machine (SVC)
+* K-Nearest Neighbors (KNN)
+* Random Forest  (RF)
+
+Analyze the results:
 
 | Model Name|	LR | SVM	| KNN	| RF |
 | ---- |----- | ---- | ------ | ------- |
