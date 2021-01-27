@@ -2,7 +2,7 @@
 ## I. Business Problems
 Kickstarter, founded in 2009, is one particularly well-known and popular crowdfunding platform. It has an all-or-nothing funding model, whereby a project is only funded if it meets its goal amount; otherwise no money is given by backers to a project.
 ##### Insights – Overall from 2009 to 2017
-<img width="1047" alt="Untitled7" src="https://user-images.githubusercontent.com/70985552/106020165-75559700-6091-11eb-949e-09c046034953.png">
+<img width="922" alt="Untitled12" src="https://user-images.githubusercontent.com/70985552/106045456-efe0df80-60ae-11eb-9f06-fa36ededaf64.png">
 
 ### 1. Current business situations:
 -  Creators and their projects are autonomous
