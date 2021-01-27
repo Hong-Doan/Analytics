@@ -23,6 +23,8 @@ In conclusion, we provide our findings and appilcation.
 ### III. Methodology
 * Dataset: 	Kickstart project from 2009 to 2017
 * Data preparation and exploration insights: Which effects on projects that were successful? 
+<img width="734" alt="Untitled8" src="https://user-images.githubusercontent.com/70985552/106023154-89e75e80-6094-11eb-8c4d-aa92328ef4a1.png">
+
 * Prediction: Machine learning models
 <img width="835" alt="Untitled5" src="https://user-images.githubusercontent.com/70985552/106018737-ded4a600-608f-11eb-95b7-245a08493632.png">
 
