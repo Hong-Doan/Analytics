@@ -21,8 +21,9 @@ The notebook is divided into 3 parts. In Part 1, we are going to clean data, vis
 
 In conclusion, we provide our findings and appilcation.
 ### III. Methodology
-* Dataset: 	Kickstart project from 2009 to 2017
-* Data preparation  
+1. Dataset: 	Kickstart project from 2009 to 2017
+2. Data preparation  
+
 Some features were initially retained for exploratory data analysis (EDA) purposes, but were then dropped in order to use machine learning models. These included features that are related to outcomes (e.g. the amount pledged) rather than related to the properties of the project itself (e.g. category, goal, length of campaign).Country can be explained by Currency i.e. Euro is used by European countries, Pounds for Great Britain, Dollar in USA, etc.
 
 Based on the log statistics, we can observe that goal is highly skewed i.e. difference between 75% percentile and max value is very high. Distribution of the goal variable. We can observe goal is highly skeweed to the right. Log transformation can solve the outlier problem.
@@ -36,8 +37,10 @@ sns.distplot(kick2.usdGoalRealLog, ax=ax2);
 ```
 <img width="734" alt="Untitled8" src="https://user-images.githubusercontent.com/70985552/106023154-89e75e80-6094-11eb-8c4d-aa92328ef4a1.png">
 
-* Data exploration insights: Which effects on projects that were successful?
-* Prediction: Machine learning models
+3. Data exploration insights: Which effects on projects that were successful?
+4. Prediction: Machine learning models
+
+* Model Results
 <img width="835" alt="Untitled5" src="https://user-images.githubusercontent.com/70985552/106018737-ded4a600-608f-11eb-95b7-245a08493632.png">
 
 * Algorithm Tuning Model by Parameter optimization using GridSearchCV and New predictions with 0.4 threshold
