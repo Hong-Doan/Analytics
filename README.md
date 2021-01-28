@@ -49,7 +49,7 @@ dtypes: datetime64 (1), float64(2), int64(4), object(4), memory usage: 30.3+ MB
 
 ### 2. Data preparation  
 
-Some features were initially retained for exploratory data analysis (EDA) purposes, but were then dropped in order to use machine learning models. These included features that are related to outcomes (e.g. the amount pledged) rather than related to the properties of the project itself (e.g. category, goal, length of campaign).Country can be explained by Currency i.e. Euro is used by European countries, Pounds for Great Britain, Dollar in USA, etc.
+Some features I initially retained for exploratory data analysis (EDA) purposes, but were then dropped in order to use machine learning models. These included features that are related to outcomes (e.g. the amount pledged) rather than related to the properties of the project itself (e.g. category, goal, length of campaign). Country can be explained by Currency i.e. Euro is used by European countries, Pounds for Great Britain, Dollar in USA, etc.
 
 Based on the log statistics, we can observe that goal is highly skewed i.e. difference between 75% percentile and max value is very high. Distribution of the goal variable. We can observe goal is highly skeweed to the right. Log transformation can solve the outlier problem.
 ```
